@@ -61,7 +61,7 @@ The entity relationship diagram shows the collection of object within a database
 ![Entity Relationship diagram](erd.png)
 
 ## Inserting Data into the Database Using SQL Queries
-
+## Advertiser
 ```Sql
 INSERT INTO Advertiser (AdvertiserID, Advertisername, Contactperson, Contactemail, Phonenumber)
 VALUES
@@ -79,6 +79,7 @@ VALUES
 (12, 'Adhubbing', 'Abdullahi Musa', 'abdullahimusa@yahoo.com', '+234 (0)90 2726 9756'),
 (13, 'Ellae Creative', 'Esther Ogunleye', 'estherogunleye@gmail.com', '+234 (0)70 4735 0004')```
 
+## Campaign
 
 ```Sql
 INSERT INTO Campaign (CampaignID, advitiserid, CampaignName, StartDate, Budget)
@@ -97,6 +98,9 @@ VALUES
 (12, 12, 'Your Active Lifestyle, Elevated', '2025-02-12', 750000),
 (13, 13, 'Luxury Redefined', '2025-03-21', 1200000)```
 
+
+## Ad
+
 ```Sql
 INSERT INTO Ad (AdID, campaignid, AdTitle, TargetURL, Impressions)
 VALUES
@@ -114,6 +118,7 @@ VALUES
 (12, 12, 'Your Active Lifestyle, Elevated', 'https://www.wetherheads.com/active-lifestyle', 5000 ),
 (13, 13, 'Luxury Redefined: Indulge Yourself', 'https://www.adhubbing.com/luxury-goods', 10000)```
 
+## Keyword
 
 ```Sql
 INSERT INTO Keyword (KeywordID, ADid, KeywordText, BidAmount, QualityScore)
@@ -132,6 +137,7 @@ VALUES
 (12, 12, 'skincare', 20.00, 7.5),
 (13, 13, 'tech innovation', 45.00, 9.2)```
 
+## Performance
 ```Sql
  INSERT INTO Performance (PerformanceID, adid, Date, Clicks, Conversations)
 VALUES
