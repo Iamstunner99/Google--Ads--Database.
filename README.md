@@ -79,6 +79,7 @@ VALUES
 (12, 'Adhubbing', 'Abdullahi Musa', 'abdullahimusa@yahoo.com', '+234 (0)90 2726 9756'),
 (13, 'Ellae Creative', 'Esther Ogunleye', 'estherogunleye@gmail.com', '+234 (0)70 4735 0004')```
 
+
 ## Campaign
 
 ```Sql
@@ -97,7 +98,6 @@ VALUES
 (11, 11, 'Elevate Your Space', '2025-01-21', 1000000),
 (12, 12, 'Your Active Lifestyle, Elevated', '2025-02-12', 750000),
 (13, 13, 'Luxury Redefined', '2025-03-21', 1200000)```
-
 
 ## Ad
 
