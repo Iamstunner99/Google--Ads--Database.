@@ -58,4 +58,4 @@ Ad - Performance: One ad can generate multiple performance records over time, bu
 ## The Entity Relationship Diagram
 The entity relationship diagram shows the collection of object within a database and the relationships between them. It included the entities, schemas, participation, constraints and the relationships between the entities. I modelled this using theERD tools by defining the table and specifying the relationships between the tables using pre-existing columns as foreign keys.
 
-![Entity Relationship Diagram ERD GOOGLE DATABASE.png]
+![Entity Relationship diagram](ERD GOOGLE DATABASE.png)
