@@ -78,3 +78,21 @@ VALUES
 (11, 'Wetherheads, Advertising Group', 'Amara Umeh', 'amaraumeh@gmail.com', '+234 (0)70 6183 9071'),
 (12, 'Adhubbing', 'Abdullahi Musa', 'abdullahimusa@yahoo.com', '+234 (0)90 2726 9756'),
 (13, 'Ellae Creative', 'Esther Ogunleye', 'estherogunleye@gmail.com', '+234 (0)70 4735 0004')```
+
+
+```Sql
+INSERT INTO Campaign (CampaignID, advitiserid, CampaignName, StartDate, Budget)
+VALUES
+(1, 1, 'Unwrap Holiday Joy', '2023-03-21', 800000),
+(2, 2, 'Level Up Your Life', '2023-06-15', 1000000),
+(3, 3, 'New Arrivals, Just for You', '2023-09-01', 600000),
+(4, 4, 'Endless Summer Savings', '2023-12-10', 900000),
+(5, 5, 'Flash Deals, Don\'t Miss Out', '2024-01-01', 1000000),
+(6, 6, 'Glow Up, Glow Gorgeous', '2024-02-14', 700000),
+(7, 7, 'Game-Changing Innovation', '2024-03-21', 850000),
+(8, 8, 'Your Seasonal Style Essentials', '2024-06-15', 1100000),
+(9, 9, 'Taste the Extraordinary', '2024-09-01', 650000),
+(10, 10, 'Power Up Your Performance', '2024-12-10', 950000),
+(11, 11, 'Elevate Your Space', '2025-01-21', 1000000),
+(12, 12, 'Your Active Lifestyle, Elevated', '2025-02-12', 750000),
+(13, 13, 'Luxury Redefined', '2025-03-21', 1200000)```
