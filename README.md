@@ -156,4 +156,19 @@ VALUES
 (10, 10, '2023-11-10', 120, 11),
 (11, 11, '2023-11-11', 200, 16),
 (12, 12, '2023-11-12', 50, 4),
-(13, 13, '2023-11-13', 100, 9)```
+(13, 13, '2023-11-13', 100, 9)
+```
+
+## Queries supporting the business objectives
+
+## Top 5 performing ad
+```Sql
+SELECT ad.adid, ad.AdTITTLE, sum(Clicks) as Total_clicks,sum(Conversion) as Total_conversion
+from ad join performance on ad.adid = performance.adid group by ad.adid;SELECT ad.adid, ad.AdTITTLE,
+sum(Clicks) as Total_clicks,sum(Conversion) as Total_conversion
+from ad join performance on ad.adid = performance.adid group by ad.adid order by total_conversion desc limit 5
+```
+
+
+
+
