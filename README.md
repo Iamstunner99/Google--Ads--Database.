@@ -176,4 +176,4 @@ from ad join performance on ad.adid = performance.adid group by ad.adid order by
 ** Insights** it can be observed above that 'Flash Sale Alert: Limited Time Offers' had the highest conversion rate in terms of top performing ad(18), followed by 'Elevate Your Space: Home Decor Inspiration' (16), it can also be gleamed that the top performing markets include fitness, consumer tech products, interior decor.
 
 ##2. Top Performing Advertisers
-![Top Performing Advertisers](
+![Top Performing Advertisers](conversion2.png)
