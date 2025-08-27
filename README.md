@@ -214,3 +214,6 @@ select campaign.campaignid,
 ```
 ![Top Performing campaign](funmi9.png)
 
+** Insights ** It can be observed that 'Elevate Your Space' led the pack when it comes to the top campaign.
+
+
