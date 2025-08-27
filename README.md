@@ -212,3 +212,5 @@ select campaign.campaignid,
  group by campaign.campaignid, campaign.campaignname 
  order by total_impressions desc limit 5
 ```
+![Top Performing campaign](funmi9.png)
+
