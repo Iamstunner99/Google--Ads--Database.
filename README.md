@@ -170,5 +170,5 @@ from ad join performance on ad.adid = performance.adid group by ad.adid order by
 ```
 
 
-
-
+## Results
+![Top performing ad](question1.png)
