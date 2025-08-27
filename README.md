@@ -173,7 +173,29 @@ from ad join performance on ad.adid = performance.adid group by ad.adid order by
 ## Results
 ![Top performing ad](question1.png)
 
+
 ** Insights** it can be observed above that 'Flash Sale Alert: Limited Time Offers' had the highest conversion rate in terms of top performing ad(18), followed by 'Elevate Your Space: Home Decor Inspiration' (16), it can also be gleamed that the top performing markets include fitness, consumer tech products, interior decor.
 
-##2. Top Performing Advertisers
+
+## 2. Top Performing Advertisers
+```
+SELECT 
+    advertiser.Advertiserid,
+    advertiser.AdvertiserName,
+    advertiser.ContactPerson,
+    advertiser.ContactEmail,
+    SUM(performance.Conversion) AS total_conversion  
+    FROM Advertiser 
+JOIN Campaign 
+    ON advertiser.Advertiserid = campaign.Advertiserid
+JOIN Ad  ON campaign.Campaignid = ad.Campaignid JOIN Performance 
+    ON ad.Adid = performance.Adid
+GROUP BY advertiser.Advertiserid, advertiser.AdvertiserName, advertiser.ContactPerson, advertiser.ContactEmail
+ORDER BY total_conversion  DESC
+LIMIT 5
+```
+
 ![Top Performing Advertisers](conversion2.png)
+
+
+** Insights** It can be observed that 'Super Star Promotions Limited' led the park
